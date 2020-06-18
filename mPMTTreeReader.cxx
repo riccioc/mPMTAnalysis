@@ -87,7 +87,7 @@ mPMTEventAnalyser mPMTTreeReader::GetPMTEvents(int channelID){
   
   mPMTEventAnalyser anaev;  
   //144167591/1000
-  for (Long64_t jentry=0; jentry<nentries/1000;jentry++){
+  for (Long64_t jentry=0; jentry<nentries;jentry++){
 
     nb = tree->GetEntry(jentry); nbytes += nb;
 
